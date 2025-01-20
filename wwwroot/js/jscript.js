@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // Determine API base URL dynamically
             const apiBaseUrl = window.location.hostname.includes("localhost")
                 ? "https://localhost:7111"
-                : "https://intseaissmdscdproductname01.azurewebsites.net"; // Replace with your Azure Web App URL
+                : "https://intseaissmdscdprd01.azurewebsites.net"; // Replace with your Azure Web App URL
 
             if (email) {
                 fetch(`${apiBaseUrl}/api/viewerRequests`, {

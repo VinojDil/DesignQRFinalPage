@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 1px;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat.ttf') format('truetype');
+    font-family: 'Montserrat-Bold';
+    src: url('/fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+p {
+    font-family: 'Montserrat';
+}
+
+.hdrs {
+    font-family: 'Montserrat-Bold';
+}
+
+.text-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat',
+}
+
+#vid #vidText {
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+
+    #firstimg {
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+}
+
+@media (min-width: 768px) {
+
+    #barimg1 {
+        max-width: 25%;
+        padding-left: 0px;
+    }
+
+    #firstimg {
+        padding-left: 3%;
+        padding-top: 3%;
+    }
+
+    .d-md-none {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        width: auto;
+    }
+
+    .d-md-flex {
+        display: none !important;
+    }
+
+    .cover-background {
+        background-size: contain !important;
+        background-position: center !important;
+    }
+
+    #vid {
+        height: 100vh !important;
+        width: auto !important;
+    }
+
+    #videoElement {
+        height: 100vh !important;
+        width: auto !important;
+        object-fit: contain !important;
+    }
+
+    #box2 {
+        width: auto !important;
+    }
+
+    #box1 {
+        width: auto !important;
+    }
+
+    #productname {
+        font-size: 35px !important;
+    }
+
+    #Season {
+        font-size: 22px !important;
+    }
+
+    #midpoint {
+        font-size: 20px !important;
+    }
+
+    #sizeprice {
+        font-size: 22px !important;
+    }
+
+    #sizeprice {
+        font-size: 22px !important;
+    }
+
+    .hdrs {
+        font-size: 22px !important;
+    }
+
+    .dess {
+        font-size: 22px !important;
+    }
+
+    #dessheader {
+        font-size: 22px !important;
+    }
+
+    #dessheader {
+        font-size: 22px !important;
+    }
+
+    #dess {
+        font-size: 20px !important;
+    }
+}
